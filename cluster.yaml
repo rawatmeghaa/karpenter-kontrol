@@ -12,7 +12,7 @@ iam:
         awsLoadBalancerController: true
 managedNodeGroups:
   - name: demo-ng
-    instanceType: t2.xlarge
+    instanceType: t3.medium
     minSize: 1
     maxSize: 2
 
