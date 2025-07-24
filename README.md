@@ -1,4 +1,12 @@
-Karpenter : 
+Karpenter :
+It automatically launches the appropriate worker nodes without node groups.Its Opensource.
+It optimize cost.
+
+
+Nodepool.yaml: what kind of nodes karpenter will create.Define insatnce type , cpu architecture , number of core , 
+
+Schedular is basically a control plan process which assign pods to nodes.The schedular determines which nodesa re valid placement for each pod in the scheduling queueaccordign to the resources.
+
 Karpenter only provision nodes not pods .It launhes node when pod is not scheduled on existing node due to memory or taint nad toleration
 Have the ability to launch the correct size of instance type , bcz they have nodepool for whic it select the correct conatiner mainly spot and code optimize
 
